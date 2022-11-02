@@ -185,8 +185,8 @@ h5 {
 }
 
 #home h1 {
-    border: 2px solid #ccd754;
-    color: #ccd754;
+    border: 2px solid rgb(244, 215, 84);
+    color: rgb(244, 215, 84);
     display: inline-block;
     letter-spacing: 6px;
     padding: 25px 35px;
