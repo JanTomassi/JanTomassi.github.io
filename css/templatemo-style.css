@@ -16,33 +16,21 @@ body {
 
 /* start all section */
 #home,
-#home .fp-slide,
-#home .fp-tableCell,
-
 #work,
-#work .fp-slide,
-#work .fp-tableCell,
-
 #about,
-#about .fp-slide,
-#about .fp-tableCell,
-
 #contact,
-#contact .fp-slide,
-#contact .fp-tableCell,
+#portfolio {
+    min-height: 100vh !important;
+}
 
-#portfolio,
-#portfolio .fp-slide,
-#portfolio .fp-tableCell,
-
-footer,
-footer .fp-slide,
-footer .fp-tableCell {
-    height: 100vh !important;
+footer .container .row,
+footer .container .row:first-child,
+footer .container .row:last-child {
+    margin: 0;
+    padding: 0;
 }
 
 .fp-scroller {
-    overflow: hidden;
     transition-duration: 500ms !important;
 }
 
@@ -56,6 +44,14 @@ h4,
 h5 {
     color: #ffffff;
     font-weight: bold;
+}
+
+.container .row:last-child {
+    padding-bottom: 10vh;
+}
+
+.container .row:first-child {
+    padding-top: 10vh;
 }
 
 /* end all heading */
@@ -189,8 +185,8 @@ h5 {
 }
 
 #home h1 {
-    border: 2px solid #D43F52;
-    color: #D43F52;
+    border: 2px solid #ccd754;
+    color: #ccd754;
     display: inline-block;
     letter-spacing: 6px;
     padding: 25px 35px;
@@ -223,7 +219,7 @@ h5 {
 
 /* start work */
 #work {
-    background: #1a1a1a;
+    /*background: #1a1a1a;*/
 }
 
 #work h2 {
